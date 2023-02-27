@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#WA-container{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+#WA-container>h1{
+    font: 500 48px 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#WA-container>div>div>input{
+    width: 550px;
+    height: 50px;
+    outline: none;
+    border: 1px solid rgb(83, 81, 81);
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font: 400 18px 'Poppins', sans-serif;
+}
+
+#input-n-btn{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#searchBtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(37, 113, 236);
+    font: 400 16px 'Poppins', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+#searchBtn:hover{
+    background-color: rgb(4, 16, 181);
+}
+
+#main-data{
+    margin-top: 50px;
+    text-align: center;
+    font: 400 20px 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 2px;
+}
+
+.weather-data-container> div{
+    margin-top: 30px;
+}
+
+.city-array-data{
+    margin-top: 50px;
+    margin-left: 25%;
+}
+
+#invalid-city-err{
+    color: red;
+    font: 500 20px 'Poppins', sans-serif;
+}
